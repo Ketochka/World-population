@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[5]:
+# In[6]:
 
 import pandas as pd
 import numpy as np 
@@ -66,7 +66,7 @@ chart_stacked_ur(8,9,1000000000,'rural_vs_urban.svg')
 SVG(filename='rural_vs_urban.svg')    
 
 #-----Pie-Chart-Total-Population--
-pie_chart = pygal.Pie(inner_radius=.35,print_values=True, style=DefaultStyle(value_font_size=12))
+pie_chart = pygal.Pie(inner_radius=.35, style=DefaultStyle)
 pie_chart.title = 'World population'
 other_total = 0
 for i in range(0, len(countries)):
