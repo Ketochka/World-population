@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[212]:
+# In[214]:
 
 import pandas as pd
 import numpy as np 
@@ -83,15 +83,15 @@ chart_bar_simple(5,15,0,'percent_of_people_with_diabetes.svg','Percent of people
 SVG(filename='percent_of_people_with_diabetes.svg') 
 
 # #-----Percent-of-people-immunized-with-BCG------------
-chart_bar_simple(8,99,70,'immunization_bcg_percent.svg','Immunization BCG, percent')
+chart_bar_simple(8,99.9,70,'immunization_bcg_percent.svg','Immunization BCG, percent')
 SVG(filename='immunization_bcg_percent.svg') 
 
 # #-----Percent-of-people-immunized-with-DPT------------
-chart_bar_simple(9,99,70,'immunization_dpt_percent.svg','Immunization DPT, percent')
+chart_bar_simple(9,99.9,70,'immunization_dpt_percent.svg','Immunization DPT, percent')
 SVG(filename='immunization_dpt_percent.svg') 
 
 # #-----Percent-of-people-immunized-with-Pol3------------
-chart_bar_simple(10,99,70,'immunization_pol3_percent.svg','Immunization Pol3, percent')
+chart_bar_simple(10,99.9,70,'immunization_pol3_percent.svg','Immunization Pol3, percent')
 SVG(filename='immunization_pol3_percent.svg') 
 
 # #-----Percent-of-literacy-adult-----------
